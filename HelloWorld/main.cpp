@@ -8,11 +8,11 @@
  * File:   main.cpp
  * Author: aliihsan
  *
- * Created on October 21, 2017, 2:39 PM
+ * Created on October 9, 2017, 8:30 PM
  */
 
 #include <cstdlib>
-
+#include <iostream>
 using namespace std;
 
 /*
@@ -20,6 +20,7 @@ using namespace std;
  */
 int main(int argc, char** argv) {
 
-    return 0;
+    cout << "Hello, World!";
+    return -1;
 }
 
