@@ -1,3 +1,7 @@
+/**
+ *
+ * @author aliihsan.sahin
+ */
 #include <iostream>
 #include <cstdlib>
 #include <cstring>
@@ -18,6 +22,7 @@ class Myvector {
             size= capacity= 0; data=0;             
             cout<<"========== Simple constructor called =========="<<endl;
         }
+        
         // deconstructor
         ~Myvector( ) {
             
@@ -30,7 +35,7 @@ class Myvector {
         
             size=obj.size; capacity=obj.capacity; data= new int;
             cout<<"========== Copy constructor called =========="<<endl;
-            cout << "size : "<<size<<" capacity: "<< capacity<<" data: "<<data<<endl;
+//            cout << "size : "<<size<<" capacity: "<< capacity<<" data: "<<data<<endl;
             
         }
 
